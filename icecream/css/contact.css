@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  /* 去掉内外标记 */
   text-decoration: none;
   list-style: none;
 }
@@ -27,7 +26,7 @@
   background: url(../images/slide-divider2.png) center top / 216px auto no-repeat;
 }
 
-/* set position ，in case od overlapped */
+/* set position ，in case of overlapped */
 
 
 textarea {
@@ -233,14 +232,6 @@ span.fa-envelope-open-o {
 .block {
   margin-top: 20em;
 }
-
-
-
-
-
-
-
-
 
 
 .other-link {

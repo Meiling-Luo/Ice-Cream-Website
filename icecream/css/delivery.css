@@ -4,6 +4,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.requirements div {
+    display: inline-block;
+
+}
+
+
 .deliveried div {
     display: inline-block;
 }

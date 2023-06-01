@@ -10,10 +10,10 @@
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css'>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/index.css">
-
   <link rel="stylesheet" type="text/css" href="css/footer.css">
-
   <link rel="stylesheet" type="text/css" href="css/productpage.css">
+  <link rel="stylesheet" type="text/css" href="css/cart.css">
+
 </head>
 
 <body>
@@ -42,9 +42,6 @@
         <li class="nav-item">
           <a class="nav-link" href="contact.html"><i class="fas fa-phone"></i>Contact</a>
         </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="news.html"><i class="far fa-newspaper"></i>News</a>
-        </li> -->
         <li class="nav-item">
           <a class="nav-link" href="login.html"><i class="far fa-user"></i> Login</a>
         </li>
@@ -58,7 +55,6 @@
         <img class="nav-new" src="images/scoop.jpg" alt="">
         <div class="banner-txt">
           <h1>Product</h1>
-
         </div>
       </div>
     </div>
@@ -66,136 +62,213 @@
 
 
 
-
+  <br>
   <div class="section">
     <div class="sec-title">
       <div class="title-img"><img src="images/icon-1.png" alt="" width="40"></div>
       <div class="title">- All Tastes -</div>
-      <div class="sub-title">CREATE YOUR OWN</div>
+      <div class="sub-title">CREATE YOUR OWN TASTES</div>
+      <br>
     </div>
-    <div class="sec-row">
-      <div class="sec-column">
-        <div class="sec-column__inner">
-          <div class="sec-list">
-            <img class="img" src="images/img-08.jpg" alt="" width="80">
-            <div style="height: 16px;"></div>
-            <div class="info">
-              <div class="border"></div>
-              <div class="name">MINT CHOCOLATE</div>
-              <div class="name2">$ 8,80</div>
-            </div>
-            <div style="height: 26px;"></div>
-            <div class="desc">
-              <p class="txt">Chocolate sauce, chocolate shavings oreos</p>
-              <a href="delivery.html" class="btn">+</a>
-            </div>
+
+
+    <div id="listdiv">
+
+      <div class="sec-list">
+        <img class="img" src="images/item01.jpg" alt="" width="80">
+
+        <div style="height: 16px;"></div>
+        <div class="info">
+          <div class="border"></div>
+          <div class="name">MINT CHOCOLATE</div>
+          <div class="name2"><input type="checkbox" class="checkCss" /></div>
+
+          <div class="price">$ 9.24</div>
+
+        </div>
+
+
+        <div style="height: 26px;"></div>
+        <div class="desc">
+          <div class="txt-container">
+            <p class="txt">Chocolate sauce, chocolate shavings oreos</p>
           </div>
-          <div class="sec-list">
-            <img class="img" src="images/img-10.jpg" alt="" width="80">
-            <div style="height: 16px;"></div>
-            <div class="info">
-              <div class="border"></div>
-              <div class="name">BUTTERED PECAN</div>
-              <div class="name2">$ 15,8</div>
-            </div>
-            <div style="height: 26px;"></div>
-            <div class="desc">
-              <p class="txt">Crushed toffee pieces, blueberries</p>
-              <a href="delivery.html" class="btn" style="background-color: #bcb9d8;">+</a>
-            </div>
-          </div>
-          <div class="sec-list">
-            <img class="img" src="images/img-04.jpg" alt="" width="80">
-            <div style="height: 16px;"></div>
-            <div class="info">
-              <div class="border"></div>
-              <div class="name">COOKIE DOUGH</div>
-              <div class="name2">$ 9,30</div>
-            </div>
-            <div style="height: 26px;"></div>
-            <div class="desc">
-              <p class="txt">Fresh blueberries, caramel sauce, M&Ms</p>
-              <a href="delivery.html" class="btn">+</a>
-            </div>
-          </div>
-          <div class="sec-list">
-            <img class="img" src="images/img-08-1.jpg" alt="" width="80">
-            <div style="height: 16px;"></div>
-            <div class="info">
-              <div class="border"></div>
-              <div class="name">MOOSE TRACKS</div>
-              <div class="name2">$ 12,80</div>
-            </div>
-            <div style="height: 26px;"></div>
-            <div class="desc">
-              <p class="txt">Hot fudge, mini peanut butter cups</p>
-              <a href="delivery.html" class="btn" style="background-color: #b2c7cc;">+</a>
-            </div>
+          <div class="count">
+            <input class="reduceCss" id="jia3" value="-" type="button" />
+            <input type="text" class="inputCountCss" id="inputCountCss2" value="0" size="3" />
+            <input class="addCss" id="jia4" value="+" type="button" />
+
+
           </div>
         </div>
       </div>
-      <div class="sec-column">
-        <div class="sec-column__inner">
-          <div class="sec-list">
-            <img class="img" src="images/img-07.jpg" alt="" width="80">
-            <div style="height: 16px;"></div>
-            <div class="info">
-              <div class="border"></div>
-              <div class="name">COOKIES N'CREAM</div>
-              <div class="name2">$ 5,80</div>
-            </div>
-            <div style="height: 26px;"></div>
-            <div class="desc">
-              <p class="txt">Cookie dough, caramel sauce, sea salt</p>
-              <a href="delivery.html" class="btn" style="background-color: #bcb9d8;">+</a>
-            </div>
-          </div>
-          <div class="sec-list">
-            <img class="img" src="images/img-11.jpg" alt="" width="80">
-            <div style="height: 16px;"></div>
-            <div class="info">
-              <div class="border"></div>
-              <div class="name">DARK CHOCOLATE</div>
-              <div class="name2">$ 7,80</div>
-            </div>
-            <div style="height: 26px;"></div>
-            <div class="desc">
-              <p class="txt">Strawberry sauce, butterscotch, sprinkles</p>
-              <a href="delivery.html" class="btn" style="background-color: #bed2c7;">+</a>
-            </div>
-          </div>
-          <div class="sec-list">
-            <img class="img" src="images/img-06.jpg" alt="" width="80">
-            <div style="height: 16px;"></div>
-            <div class="info">
-              <div class="border"></div>
-              <div class="name">FRESH VANILLA</div>
-              <div class="name2">$ 13,30</div>
-            </div>
-            <div style="height: 26px;"></div>
-            <div class="desc">
-              <p class="txt">Hot fudge, cookie crumbles, strawberries</p>
-              <a href="delivery.html" class="btn">+</a>
-            </div>
-          </div>
-          <div class="sec-list">
-            <img class="img" src="images/img-09.jpg" alt="" width="80">
-            <div style="height: 16px;"></div>
-            <div class="info">
-              <div class="border"></div>
-              <div class="name">CHOCO COOKIE</div>
-              <div class="name2">$ 10,80</div>
-            </div>
-            <div style="height: 26px;"></div>
-            <div class="desc">
-              <p class="txt">Chocolate sauce, peanut butter cups</p>
-              <a href="delivery.html" class="btn" style="background-color: #bcb9d8;">+</a>
-            </div>
+
+
+      <div class="sec-list">
+        <img class="img" src="images/item02.jpg" alt="" width="80">
+        <div style="height: 16px;"></div>
+        <div class="info">
+          <div class="border"></div>
+          <div class="name">BUTTERED PECAN</div>
+          <div class="name2"><input type="checkbox" class="checkCss" /></div>
+          <div class="price">$ 11.2</div>
+        </div>
+        <div style="height: 26px;"></div>
+
+        <div class="desc">
+          <p class="txt">Crushed toffee pieces, blueberries</p>
+
+          <div class="count"><input class="reduceCss" style="background-color: #bcb9d8;" id="jia3" value="-"
+              type="button" />
+            <input type="text" class="inputCountCss" id="inputCountCss2" value="0" size="3" />
+            <input class="addCss" style="background-color: #bcb9d8;" id="jia4" value="+" type="button" />
           </div>
         </div>
       </div>
+
+      <div class="sec-list">
+        <img class="img" src="images/item03.jpg" alt="" width="80">
+
+        <div style="height: 16px;"></div>
+        <div class="info">
+          <div class="border"></div>
+          <div class="name">COOKIE DOUGH</div>
+          <div class="name2"><input type="checkbox" class="checkCss" /></div>
+          <div class="price">$ 7.21</div>
+        </div>
+        <div style="height: 26px;"></div>
+        <div class="desc">
+          <p class="txt">Fresh blueberries, caramel sauce, M&Ms</p>
+          <div class="count"><input class="reduceCss" style="background-color: #dab3c9;" id="jia3" value="-"
+              type="button" />
+            <input type="text" class="inputCountCss" id="inputCountCss2" value="0" size="3" />
+            <input class="addCss" style="background-color: #dab3c9;" id="jia4" value="+" type="button" />
+          </div>
+        </div>
+      </div>
+
+      <div class="sec-list">
+        <img class="img" src="images/item04.jpg" alt="" width="80">
+
+        <div style="height: 16px;"></div>
+        <div class="info">
+          <div class="border"></div>
+          <div class="name">MOOSE TRACKS</div>
+          <div class="name2"><input type="checkbox" class="checkCss" /></div>
+          <div class="price">$ 12.7</div>
+        </div>
+        <div style="height: 26px;"></div>
+        <div class="desc">
+          <p class="txt">Hot fudge, mini peanut butter cups</p>
+          <div class="count"><input class="reduceCss" style="background-color: #bed2c7;" id="jia3" value="-"
+              type="button" />
+            <input type="text" class="inputCountCss" id="inputCountCss2" value="0" size="3" />
+            <input class="addCss" style="background-color: #bed2c7;" id="jia4" value="+" type="button" />
+          </div>
+        </div>
+      </div>
+
+      <div class="sec-list">
+        <img class="img" src="images/item05.jpg" alt="" width="80">
+
+        <div style="height: 16px;"></div>
+        <div class="info">
+          <div class="border"></div>
+          <div class="name">COOKIES N'CREAM</div>
+          <div class="name2"><input type="checkbox" class="checkCss" /></div>
+          <div class="price">$ 10.2</div>
+        </div>
+        <div style="height: 26px;"></div>
+        <div class="desc">
+          <p class="txt">Cookie dough, caramel sauce, sea salt</p>
+          <div class="count"><input class="reduceCss" style="background-color: #bcb9d8;" id="jia3" value="-"
+              type="button" />
+            <input type="text" class="inputCountCss" id="inputCountCss2" value="0" size="3" />
+            <input class="addCss" style="background-color: #bcb9d8;" id="jia4" value="+" type="button" />
+          </div>
+        </div>
+      </div>
+
+      <div class="sec-list">
+        <img class="img" src="images/item06.jpg" alt="" width="80">
+
+        <div style="height: 16px;"></div>
+        <div class="info">
+          <div class="border"></div>
+          <div class="name">DARK CHOCOLATE</div>
+          <div class="name2"><input type="checkbox" class="checkCss" /></div>
+          <div class="price">$ 11.2</div>
+        </div>
+        <div style="height: 26px;"></div>
+        <div class="desc">
+          <p class="txt">Strawberry sauce, butterscotch, sprinkles</p>
+          <div class="count"><input class="reduceCss" style="background-color: #bed2c7;" id="jia3" value="-"
+              type="button" />
+            <input type="text" class="inputCountCss" id="inputCountCss2" value="0" size="3" />
+            <input class="addCss" style="background-color: #bed2c7;" id="jia4" value="+" type="button" />
+          </div>
+        </div>
+      </div>
+
+      <div class="sec-list">
+        <img class="img" src="images/item07.jpg" alt="" width="80">
+
+        <div style="height: 16px;"></div>
+        <div class="info">
+          <div class="border"></div>
+          <div class="name">FRESH VANILLA</div>
+          <div class="name2"><input type="checkbox" class="checkCss" /></div>
+          <div class="price">$ 11.7</div>
+        </div>
+        <div style="height: 26px;"></div>
+        <div class="desc">
+          <p class="txt">Hot fudge, cookie crumbles, strawberries</p>
+          <div class="count"><input class="reduceCss" style="background-color: #dab3c9;" id="jia3" value="-"
+              type="button" />
+            <input type="text" class="inputCountCss" id="inputCountCss2" value="0" size="3" />
+            <input class="addCss" style="background-color: #dab3c9;" id="jia4" value="+" type="button" />
+          </div>
+        </div>
+      </div>
+
+      <div class="sec-list">
+        <img class="img" src="images/item08.jpg" alt="" width="80">
+
+        <div style="height: 16px;"></div>
+        <div class="info">
+          <div class="border"></div>
+          <div class="name">CHOCO COOKIE</div>
+          <div class="name2"><input type="checkbox" class="checkCss" /></div>
+          <div class="price">$ 10.80</div>
+        </div>
+        <div style="height: 26px;"></div>
+        <div class="desc">
+          <p class="txt">Chocolate sauce, peanut butter cups</p>
+          <div class="count"><input class="reduceCss" style="background-color: #bcb9d8;" id="jia3" value="-"
+              type="button" />
+            <input type="text" class="inputCountCss" id="inputCountCss2" value="0" size="3" />
+            <input class="addCss" style="background-color: #bcb9d8;" id="jia4" value="+" type="button" />
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div id="checkout">
+        <div class="t jisuanbtn">
+          <a href="delivery.html"><input type="submit" name="btnOrder" id="btnOrder" value="Check" /></a>
+        </div>
+        <div class="t TotalMoney">Total:$ <span id="priceTotal"> 0.00</span></div>
+        <div class="t">Selected Item：<span id="countTotal"> 0 </span></div>
+      </div>
+
     </div>
   </div>
+
+
+  </div>
+  <br>
   <div class="littlelogo">
 
     <img src="images/icon-1.png" alt="logo">
@@ -230,4 +303,6 @@
   <script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js'></script>
   <script src="scripts/navbar.js"></script>
+  <script type="text/javascript" src="scripts/cart.js"></script>
+
 </body>
